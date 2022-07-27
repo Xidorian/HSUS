@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${page~title}</title>
+    <link rel="stylesheet" href="https://use.typekit.net/pkd2qjy.css">
+
+    <!-- TODO: Insert Google Analytics -->
+    <link href="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2253/advocacy.css?v=1618041279002" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        font-family: "freight-sans-pro", Verdana, sans-serif;
+        font-style: normal;
+      }
+
+      p {
+        line-height: 28px;
+      }
+
+      p.expire-message {
+        font: normal 12px "freight-sans-pro", Verdana, sans-serif;
+        display: block !important;
+      }
+
+      .advo-main {
+        margin-top: 80px;
+      }
+
+      .advo-main h3 {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 500;
+        color: #00358E;
+        margin: 0 auto;
+        max-width: 500px;
+        text-align: center;
+      }
+
+      .advo-main h3::after {
+        background-color: #eef0f1;
+        content: '';
+        display: block;
+        height: 5px;
+        margin: 20px auto;
+        width: 38px;
+      }
+
+      .advo-main p {
+        max-width: 490px;
+        margin: 0 auto 10px;
+        text-align: center;
+      }
+
+      br.d-break {
+        display: none;
+      }
+
+      @media screen and (min-width: 768px) {
+        br.d-break {
+          display: block;
+        }
+      }
+
+      .advo-mid-wrap {
+        margin: 90px 0;
+        display: grid;
+        grid-template-columns: 1fr 90% 1fr;
+        grid-row-gap: 100px;
+      }
+
+      .advo-mid {
+        display: grid;
+        grid-template-columns: 49% 45%;
+        grid-column-gap: 5.7%;
+        grid-row-gap: 20px;
+        grid-column-start: 2;
+        margin: 0;
+        max-width: none;
+      }
+
+      .advo-left-col {
+        float: none;
+        width: auto;
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        grid-column-gap: 20px;
+        padding-left: 0;
+        grid-column-start: 1;
+      }
+
+      .advo-right-col {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        grid-column-gap: 20px;
+        margin-right: 50px;
+        margin: auto;
+      }
+
+      .advo-left-col .advo-donate-icon {
+        background-image: url(https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2253/icon-gift-navy.svg?v=1614190630000);
+        background-repeat: no-repeat;
+        background-size: 40px;
+      }
+
+      .advo-right-col .advo-email-icon {
+        background-image: url(https://secure.humanesociety.org/assets/images/radvo/email.svg);
+        background-repeat: no-repeat;
+        background-size: 40px;
+      }
+
+      .advo-left-col .advo-phone-icon {
+        background-image: url(https://secure.humanesociety.org/assets/images/radvo/phone.svg);
+        background-repeat: no-repeat;
+        background-size: 40px;
+      }
+
+      .advo-right-col .advo-share-icon {
+        background-image: url(https://secure.humanesociety.org/assets/images/radvo/share-bubble.svg);
+        background-repeat: no-repeat;
+        background-size: 40px;
+      }
+
+      .advo-cta-text p {
+        display: inline;
+      }
+
+      /* Blue Arrow */
+      div.advo-share-text a.blueArrowlink {
+        border-bottom: 0;
+      }
+
+      .blueArrow {
+        font-weight: 600;
+        display: block !important;
+        margin-right: 5px;
+        margin-top: 8px;
+      }
+
+      a.blueArrowlink {
+        box-shadow: none;
+        color: #00358E;
+      }
+
+      .blueArrow::after {
+        content: "";
+        background-image: url(https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2253/icon-arrow-bright-blue.png?v=1612891198000);
+        background-repeat: no-repeat;
+        background-position: bottom 5px right 0;
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px;
+        height: 25px;
+        vertical-align: bottom;
+        margin-left: 5px;
+      }
+
+      /* Media Queries */
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .advo-bottom {
+          grid-template-columns: 5% 90% 5%;
+        }
+
+        .advo-mid-wrap {
+          grid-template-columns: auto;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        .advo-main {
+          margin: 40px 25px;
+        }
+
+        .advo-mid-wrap {
+          display: block;
+          grid-row-gap: 0px;
+        }
+
+        .advo-mid {
+          margin: 40px 0 20px;
+          display: block;
+        }
+
+        .advo-left-col {
+          margin-bottom: 40px;
+        }
+      }
+
+    </style>
+  </head>
+
+  <body class="enya enya-donation">
+    <div id="page-wrapper">
+      <div id="page-header">
+        <header>
+          <div class="logo-header">
+            <a href="https://www.humanesociety.org/" class="hsus-logo" target="_blank" rel="noopener noreferrer">
+              <span>HSUS Logo</span>
+            </a>
+          </div>
+        </header>
+      </div> <!-- /#page-header -->
+      <noscript>
+        <div id="noscript-warning">Please enable your browser’s JavaScript.</div>
+      </noscript>
+      <div id="page-container">
+        <div id="page-content">
+          <div id="main-container">
+            <div id="main-content">
+              <!-- End Template Header Block -->
+
+
+
+
+              <!-- Begin Template Footer Block -->
+            </div> <!-- /#main-content -->
+          </div> <!-- /#main-container -->
+        </div> <!-- /#page-content -->
+      </div> <!-- /#page-container -->
+      <div id="page-footer">
+        <footer>
+          <ul class="footer-nav">
+            <li>
+              <a href="http://www.humanesociety.org/" target="_blank">Home</a>
+            </li>
+            <li>
+              <a href="http://www.humanesociety.org/privacy.html" target="_blank">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="http://www.humanesociety.org/about/contact/" target="_blank">Contact Us</a>
+            </li>
+          </ul>
+          <p class="copyright">&copy; 2021 The Humane Society of the United States</p>
+        </footer>
+      </div><!-- /#page-footer -->
+    </div> <!-- /#page-wrapper -->
+
+    <script src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2253/common.js?v=1616159696000"></script>
+    <script src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2253/advocacy.js?v=1617041291002"></script>
+    <!--<script src="https://613172deadd7.ngrok.io/zuri/engaging%20networks/hsus/project-enya/dist/common/js/common.js"></script>-->
+    <!--<script src="https://a107efb8a992.ngrok.io/zuri/engaging%20networks/hsus/project-enya/dist/advocacy/js/advocacy.js"></script>-->
+  </body>
+
+</html>
